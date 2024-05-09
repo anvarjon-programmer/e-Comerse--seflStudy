@@ -8,6 +8,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import {createUserWithEmailAndPassword} from 'firebase/auth'
 import { auth } from '../../firebase/config';
 import Loader from '../../components/loader/Loader';
+// import { toast } from "react-toastify";
 
 
 const Register = () => {
